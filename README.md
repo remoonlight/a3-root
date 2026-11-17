@@ -1,5 +1,7 @@
 # A3 root
 
+仓库地址：[vw-id-headunit-lab/a3-root](https://github.com/vw-id-headunit-lab/a3-root)
+
 ICAS3GP（8704）经车机 SoftAP **A3** 通道拉起 Linux `sshd`，源端口 **7878** 公钥登录 `root`。文档与 `ops/` 文件一一对应。
 
 仓库仅包含通用操作与模板；个人配置和 SSH 密钥不入库。
