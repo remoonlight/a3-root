@@ -1,0 +1,19 @@
+{
+  "ssid": "",
+  "bind_ip": "",
+  "bind_port": 7878,
+  "host": "",
+  "testiface_port": 15500,
+  "ssh_port": 22,
+  "ssh_user": "root",
+  "identity_file": "ssh/id_ed25519",
+  "known_hosts": "ssh/known_hosts",
+  "probe_timeout_s": 4,
+  "e3_timeout_s": 8,
+  "ssh_timeout_s": 12,
+  "time_wait_s": 120,
+  "sshd_cmd": "mkdir -p /var/run/sshd; chmod 755 /var/run/sshd; /usr/sbin/sshd -f /etc/ssh/sshd_config_readonly -t; /usr/sbin/sshd -f /etc/ssh/sshd_config_readonly",
+  "expected_ack_hex": "9387abcd0000000082e3010113",
+  "verify_remote": "id; echo A3SSH-OK",
+  "verify_uid_needle": "uid=0(root)"
+}

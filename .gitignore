@@ -1,0 +1,16 @@
+ops/config.json
+ssh/*
+!ssh/README.md
+sessions/
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
